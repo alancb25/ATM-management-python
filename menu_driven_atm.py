@@ -19,7 +19,7 @@ class Bank:
         else:
             print("Insufficient Balance") 
 
-s1=Bank(100123,"Amal")
+s1=Bank(123456,"Edited Data")
 
 while True:
     choice=int(input("1.Balance Enquiry\n2.Deposit\n3.Withdraw\n4.Exit\nEnter the Choice:"))
@@ -36,3 +36,4 @@ while True:
         break
     else:
         print("Invalid choice")
+print("THIS IS A N EDITTED FILE IN GIT")
